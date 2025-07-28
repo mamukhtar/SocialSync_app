@@ -1,0 +1,14 @@
+# This file contains the requirements for the frontend of the project.
+react
+react-dom
+react-router-dom
+react-scripts
+react-big-calendar
+moment
+tailwindcss
+autoprefixer
+postcss
+@headlessui/react
+@heroicons/react
+@testing-library/react
+@testing-library/jest-dom

@@ -1,0 +1,132 @@
+
+@import "react-big-calendar/lib/css/react-big-calendar.css";
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Contain the calendar better on large screens */
+.rbc-calendar {
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: inherit;
+  color: inherit;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+/* Clean up toolbar buttons */
+.rbc-toolbar {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rbc-toolbar button {
+  background-color: white;
+  border: 1px solid #bcd3f2;
+  color: #395c6b;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.rbc-toolbar button:hover {
+  background-color: #dce9f9;
+}
+
+.rbc-toolbar button.rbc-active {
+  background-color: #80a4ed;
+  color: white;
+  border-color: transparent;
+}
+
+/* Date cell hover (optional subtle highlight) */
+.rbc-month-view .rbc-day-bg:hover {
+  background-color: #f5faff;
+}
+
+/* Event pill style */
+.rbc-event {
+  background-color: #80a4ed;
+  color: white;
+  padding: 3px 6px;
+  font-size: 13px;
+  border-radius: 8px;
+  border: none;
+}
+
+/* Week/Day grid line styling (optional polish) */
+.rbc-time-content > * + * {
+  border-left: 1px solid #e0e0e0;
+}
+/* Make calendar buttons behave consistently */
+.rbc-btn, .rbc-toolbar button {
+  all: unset;
+  font-size: 14px;
+  padding: 4px 10px;
+  margin: 0 4px;
+  background-color: white;
+  border: 1px solid #d4cb92;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.rbc-toolbar button:hover {
+  background-color: #e6e1c5;
+}
+
+.rbc-toolbar button.rbc-active {
+  background-color: #80a4ed;
+  color: white;
+}
+
+/* Make calendar scrollable horizontally on small screens */
+.responsive-calendar-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.responsive-calendar {
+  min-width: 700px; /* Prevent shrink on small devices */
+}
+

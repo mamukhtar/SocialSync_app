@@ -1,0 +1,9 @@
+# This file contains the requirements for the backend of the application.
+# Node.js backend (Express + Prisma)
+express
+cors
+cookie-parser
+dotenv
+jsonwebtoken
+bcrypt
+@prisma/client
