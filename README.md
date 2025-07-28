@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Features
+## Features
 
 - Create and manage events with categories and custom labels
 - Attach curated or uploaded images using vibe-based prompts
@@ -18,7 +18,7 @@
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - **Frontend:** React, Tailwind CSS, React Big Calendar
 - **Backend:** Node.js, Express
@@ -28,7 +28,7 @@
 
 ---
 
-## 🛠 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repo
 
@@ -112,7 +112,7 @@ Create `.env` files in both `client` and `server` folders.
 
 ---
 
-## ✅ Running Tests
+## Running Tests
 
 To run component tests:
 
@@ -125,7 +125,7 @@ Tests are written using **Jest** and **React Testing Library**. Components like 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 /server         # Node/Express backend
@@ -143,13 +143,13 @@ Tests are written using **Jest** and **React Testing Library**. Components like 
 
 ---
 
-## 📖 Usage Guide
+## Usage Guide
 
 See the **[Getting Started](http://localhost:3000/how-to)** page in-app for a full walkthrough on how to use SocialSync!
 
 ---
 
-## 💡 Future Improvements
+## Future Improvements
 
 - Email reminders for upcoming tasks/events
 - Event sharing with others
